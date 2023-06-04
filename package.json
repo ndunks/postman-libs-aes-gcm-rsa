@@ -4,7 +4,7 @@
   "description": "",
   "main": "libs.js",
   "scripts": {
-    "build": "uglifyjs libs/rsa.js libs/prng4.js libs/rng.js libs/jsbn.js libs/jsbn2.js libs/asn1hex-1.1.js libs/base64.js libs/base64x-1.1.js libs/rsapem-1.1.js libs/sjcl.js libs/utils.js -o libs.js"
+    "build": "uglifyjs libs/utils.js libs/rsa.js libs/prng4.js libs/rng.js libs/jsbn.js libs/jsbn2.js libs/asn1hex-1.1.js libs/base64.js libs/base64x-1.1.js libs/rsapem-1.1.js libs/sjcl.js -o libs.js"
   },
   "author": "",
   "license": "ISC",

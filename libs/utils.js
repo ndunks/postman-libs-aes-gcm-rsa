@@ -1,3 +1,7 @@
+// fix: libs/jsbn.js
+if(!this['navigator']){
+    this['navigator'] = {};
+}
 
 function wordToByteArray(word, length) {
     var ba = [],
